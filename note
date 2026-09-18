@@ -1,0 +1,191 @@
+'''
+In this lab, you will practice using Python statements and expressions to create a small interactive adventure program.
+
+Learning Outcomes
+Upon completion of this assignment, you will know how to use:
+Variables
+Assignment statements
+Arithmetic expressions
+String expressions
+Boolean expressions
+Input and output
+Type conversion
+Comments
+Operators
+Scenario
+You have been recruited for a secret mission.
+
+Your program will ask the user several questions and use their answers to calculate information about their mission.
+
+At the end, your program should display a Mission Briefing containing the results.
+
+The program does not need if statements, loops, functions, or other control structures yet. The goal is to practice statements and expressions only.
+
+
+
+Part 0 — REPO
+In your local course repository, create a new folder called lab02.
+
+
+
+Part 1 — Mission Information
+Create a Python program named:
+
+mission.py
+mission.py
+Start the program with a comment containing your name, course, and assignment.
+
+Your program should ask the user for:
+
+Their agent name
+Their age
+The number of years they have been training
+Their favorite color
+The number of gadgets they are carrying
+The number of minutes they have to complete the mission
+Example:
+
+Enter your agent name: Morgan
+Enter your age: 24
+How many years have you been training? 5
+Enter your favorite color: blue
+How many gadgets are you carrying? 4
+How many minutes do you have?
+
+37Enter your agent name: Morgan
+Enter your age: 24
+How many years have you been training? 5
+Enter your favorite color: blue
+How many gadgets are you carrying? 4
+How many minutes do you have? 37
+Part 2 — Calculate Mission Statistics
+Create variables and expressions that calculate the following.
+
+1. Training Percentage
+Calculate the percentage of the agent's life they have spent training.
+
+For example:
+
+5 years / 24 years × 1005 years / 24 years × 100
+Store the result in:
+
+training_percentagetraining_percentage
+2. Gadget Density
+Calculate the number of gadgets per year of training.
+
+Store the result in:
+
+gadget_densitygadget_density
+3. Mission Seconds
+Convert the number of mission minutes into seconds.
+
+Store the result in:
+
+mission_secondsmission_seconds
+4. Mission Countdown
+Assume the agent needs 7 minutes to reach the mission location.
+
+Calculate how many minutes remain for the actual mission.
+
+Store the result in:
+
+mission_time_remainingmission_time_remaining
+
+
+Part 3 — Create a Mission Code
+Create a variable called:
+
+mission_codemission_code
+The mission code should be created by combining:
+
+The agent's name
+Their favorite color
+Their age
+For example:
+
+Agent: Morgan
+Color: blue
+Age: 24Agent: Morgan
+Color: blue
+Age: 24
+could produce:
+
+MORGAN-BLUE-24MORGAN-BLUE-24
+Hint: You can use string methods such as .upper().
+
+
+
+Part 4 — Boolean Expressions
+Create Boolean expressions that answer these questions:
+
+is_adult
+has_many_gadgets
+has_training_experienceis_adult
+has_many_gadgets
+has_training_experience
+Use the following rules:
+
+is_adult is True if the agent is at least 18.
+has_many_gadgets is True if the agent has at least 5 gadgets.
+has_training_experience is True if the agent has trained for more than 0 years.
+For example:
+
+is_adult = age >= 18is_adult = age >= 18
+
+
+Part 5 — Mission Briefing
+Use print() statements to produce a final mission briefing.
+
+Your output should contain all of the following:
+
+====================================
+        SECRET MISSION BRIEFING
+====================================
+ 
+Agent: Morgan
+Mission Code: MORGAN-BLUE-24
+ 
+Age: 24
+Training: 5 years
+Training Percentage: 20.83%
+ 
+Gadgets: 4
+Gadget Density: 0.80 per training year
+ 
+Mission Time: 37 minutes
+Mission Time Remaining: 30 minutes
+Mission Time in Seconds: 2220
+ 
+Adult Agent: True
+Many Gadgets: False
+Training Experience: True
+ 
+====================================
+        GOOD LUCK, AGENT!
+========================================================================
+        SECRET MISSION BRIEFING
+====================================
+ 
+Agent: Morgan
+Mission Code: MORGAN-BLUE-24
+ 
+Age: 24
+Training: 5 years
+Training Percentage: 20.83%
+ 
+Gadgets: 4
+Gadget Density: 0.80 per training year
+ 
+Mission Time: 37 minutes
+Mission Time Remaining: 30 minutes
+Mission Time in Seconds: 2220
+ 
+Adult Agent: True
+Many Gadgets: False
+Training Experience: True
+ 
+====================================
+        GOOD LUCK, AGENT!
+====================================
+Your exact numbers will depend on the values entered by the user.
+'''
