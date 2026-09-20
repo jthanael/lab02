@@ -59,6 +59,7 @@ print (f"Mission Time in Seconds: {mission_seconds} seconds")
 print("\n")
 print(f"Adult Agent: {is_adult}")
 print(f"Many Gadgets: {has_many_gadgets}")
+
 print(f"Training Experience: {has_training}")
 
 print("\n==============Good luck on your mission, Agent " + agent_name + "!==============")
